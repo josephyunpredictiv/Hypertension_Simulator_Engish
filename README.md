@@ -1,6 +1,6 @@
 # Predictiv's Hypertension and Complications Simulator
 ### Powered and managed by Predictiv Care, Inc.
-#### This is the english version of the hypertension and complications simulator. Please note that all data and IDs were randomized and so any matches in data is purely coincidential.
+##### This is the english version of the hypertension and complications simulator. Please note that all data and IDs were randomized and so any matches in data is purely coincidential.
 ## Installation & Setup
 
 Instructions are for mac but you will be able to still do this on windows
