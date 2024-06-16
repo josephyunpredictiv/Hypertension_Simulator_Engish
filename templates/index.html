@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Predictiv's Hypertension and Complications Simulator</title>
+    <link rel="icon" type="image/x-icon" href="https://demo.predictivcare.com/favicon.ico">
+    <style>
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #formContainer {
+            position: relative;
+            z-index: 100;
+            width: 100%;
+            height: 200%;
+        }
+
+        .input-group {
+            position: absolute;
+        }
+
+        .label {
+            display: block;
+        }
+
+        #neuralNetworkSvg {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        #pageTitle {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .predict-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        #imageContainer {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 300px;
+            z-index: 1;
+        }
+
+        #poweredBy {
+            text-align: center;
+            font-size: smaller;
+            margin-top: 80px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pageTitle">
+        <h1>Predictiv's Hypertension and Complications Simulator</h1>
+        <h3>[Press Enter to run simulation]</h3>
+    </div>
+    <div id="formContainer">
+        <!-- Neural Network Visualization -->
+        <svg id="neuralNetworkSvg" width="100%" height="1000px"></svg>
+    </div>
+<!--    <div id="imageContainer" class="center-container">
+        <img src="../static/images/수축기혈압_gauge.png" alt="Image 1" width="150" height="100" />
+        <img src="../static/images/이완기혈압_gauge.png" alt="Image 2" width="150" height="100" />
+        <img src="../static/images/체질량지수_gauge.png" alt="Image 3" width="150" height="100" />
+        <img src="../static/images/중성지방_gauge.png" alt="Image 4" width="150" height="100" />
+        <img src="../static/images/사구체여과율_guage.png" alt="Image 5" width="150" height="100" />
+        <img src="../static/images/공복혈당_gauge.png" alt="Image 6" width="150" height="100" />
+        <img src="../static/images/HDL-콜레스테롤_gauge.png" alt="Image 7" width="150" height="100" />
+        <img src="../static/images/LDL-콜레스테롤_gauge.png" alt="Image 8" width="150" height="100" />
+        <img src="../static/images/ALT_gauge.png" alt="Image 9" width="150" height="100" />
+        <img src="../static/images/AST_gauge.png" alt="Image 10" width="150" height="100" />
+    </div>-->
+    <div id="poweredBy">
+        <p>Powered by: Predictiv Care, Inc.</p>
+    </div>
+    <script src="../static/js/script.js"></script>
+</body>
+
+</html>

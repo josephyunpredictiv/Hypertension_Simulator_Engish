@@ -1,0 +1,41 @@
+#inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+
+#inputContainer label {
+    margin-top: 10px;
+}
+
+#inputContainer input[type="number"],
+#inputContainer input[type="text"] {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#centralPicture {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    margin: 20px auto;
+}
+
+#predictedGFR {
+    margin-top: 20px;
+}
+
+#formContainer {
+    position: relative;
+    height:200px;
+    z-index: 2;
+}
+
+#neuralNetworkSvg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
