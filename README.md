@@ -47,3 +47,6 @@ python3 app.py
 
 Go to the following link on a browser
 http://127.0.0.1:5000
+
+The final result should look similar to the following picture.
+![Model Image](images/simulator.png)
